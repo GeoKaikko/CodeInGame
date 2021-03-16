@@ -1,0 +1,2 @@
+package CodeGolf.Temperatures;
+import java.util.*;class Solution{public static void main(String[] args){int d=5526;int b=0;Scanner s=new Scanner(System.in);int n=s.nextInt();for(int i = 0; i<n; i++){int a=s.nextInt();if(Math.abs(a)<d){d=Math.abs(a);b=a;}if(Math.abs(a)==d){if(a>0){b=a;}}}System.out.println(b);}}

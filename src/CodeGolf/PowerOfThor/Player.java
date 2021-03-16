@@ -1,0 +1,2 @@
+package CodeGolf.PowerOfThor;
+import java.util.*;class Player{public static void main(String[] args){Scanner i=new Scanner(System.in);int A=i.nextInt();int B=i.nextInt();int X=i.nextInt();int Y=i.nextInt();while(true){int r=i.nextInt();String d="";if(B!=Y){d+=B>Y?"S":"N";Y+=B>Y?1:-1;}if(A!=X){d+=A>X?"E":"W";X+=A>X?1:-1;}System.out.println(d);}}}
